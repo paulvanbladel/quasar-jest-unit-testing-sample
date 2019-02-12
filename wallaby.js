@@ -4,7 +4,13 @@ module.exports = (wallaby) => {
   const compiler = wallaby.compilers.babel({ presets: [['@quasar/app', { modules: 'commonjs' }]] })
 
   return {
-    files: ['src/**/*', 'jest.config.js', 'package.json'],
+    files: [
+      'src/**/*',
+      'jest.config.js',
+      'package.json',
+      'test/**/*',
+      '!test/**/*.spec.js'
+    ],
 
     tests: ['test/**/*.spec.js'],
 
