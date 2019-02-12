@@ -8928,7 +8928,7 @@ vue-style-loader@4.1.2, vue-style-loader@^4.1.0:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-template-compiler@2.6.6, vue-template-compiler@^2.6.6:
+vue-template-compiler@2.6.6, vue-template-compiler@^2.5.16, vue-template-compiler@^2.6.6:
   version "2.6.6"
   resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.6.6.tgz#a807acbf3d51971d3721d75ecb1b927b517c1a02"
   integrity sha512-OakxDGyrmMQViCjkakQFbDZlG0NibiOzpLauOfyCUVRQc9yPmTqpiz9nF0VeA+dFkXegetw0E5x65BFhhLXO0A==
@@ -8964,6 +8964,13 @@ walker@~1.0.5:
   integrity sha1-L3+bj9ENZ3JisYqITijRlhjgKPs=
   dependencies:
     makeerror "1.0.x"
+
+wallaby-vue-compiler@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/wallaby-vue-compiler/-/wallaby-vue-compiler-1.0.3.tgz#14061b6a53498758717e1a5506b90da86495d285"
+  integrity sha512-jvx7so8SV47NpqPxsNGPyDGCU0l1zJZl/jyE5J7xNB81+CRUPb6rev9Z+DbzSugLSzI7psm/zc9KLGzI01r47A==
+  dependencies:
+    vue-template-compiler "^2.5.16"
 
 watch@~0.18.0:
   version "0.18.0"
