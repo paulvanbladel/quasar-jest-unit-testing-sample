@@ -9,7 +9,8 @@ module.exports = (wallaby) => {
       'jest.config.js',
       'package.json',
       'test/**/*',
-      '!test/**/*.spec.js'
+      '!test/**/*.spec.js',
+      '!src/**/*.spec.js'
     ],
 
     tests: ['src/**/*.spec.js'],
