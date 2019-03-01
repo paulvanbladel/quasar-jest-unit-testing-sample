@@ -5,7 +5,7 @@
 
 import { mount, createLocalVue, shallowMount } from '@vue/test-utils'
 import { mountQuasar } from '~/test/jest/utils'
-import QBUTTON from './demo/QBtn-demo.vue'
+import QBUTTON from '~/src/components/QBtn-demo.vue'
 import Quasar, { Qbtn } from 'quasar'
 
 describe('Mount Quasar', () => {

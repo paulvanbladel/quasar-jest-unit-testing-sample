@@ -9,7 +9,7 @@
   dependencies:
     "@babel/highlight" "^7.0.0"
 
-"@babel/core@7.2.2", "@babel/core@^7.1.0", "@babel/core@^7.2.2":
+"@babel/core@7.2.2", "@babel/core@^7.1.0":
   version "7.2.2"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.2.2.tgz#07adba6dde27bb5ad8d8672f15fde3e08184a687"
   integrity sha512-59vB0RWt09cAct5EIe58+NzGP4TFSD3Bz//2/ELy3ZeTeKF6VTD1AXlH8BGGbCX0PuobZBsIzO7IAI9PH67eKw==
@@ -825,18 +825,15 @@
   resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.0.0.tgz#60b11a272efd10a71d5e6391650360f28a6addc8"
   integrity sha512-cEsCTkpwcCoPAOLtZp6ek0Gjbp9MbhCUrwpvx/GWuvPzjetIehOQcN0SV84cJmoLt//RB8LxHIR/lQXejNuiAw==
 
-"@quasar/quasar-app-extension-testing-unit-jest@^1.0.0-beta.5":
-  version "1.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@quasar/quasar-app-extension-testing-unit-jest/-/quasar-app-extension-testing-unit-jest-1.0.0-beta.5.tgz#0581b2ac8e6e7bbd367f43d24da0a01605d205b4"
-  integrity sha512-3WMMotFvnqvKZPtQF8tVVJ1s4KRa9XvWyNNuY5jYcQ1xgqWX6hZ7ntfC1xJAln14bkFHqUIQrpDk00xJwLVprg==
+"@quasar/quasar-app-extension-testing-unit-jest@^1.0.0-beta.12":
+  version "1.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@quasar/quasar-app-extension-testing-unit-jest/-/quasar-app-extension-testing-unit-jest-1.0.0-beta.12.tgz#b43ea974d8ae5bd705d41bf4348e94ab2e151f9e"
+  integrity sha512-EgaCGbVST/fhGbpzFVNhFJL0bzdu+oMDTsvYqb1vSc69W5Iv7C5T4z/jxPUqBXZXtZGg0VPQT89qKDkKZcukfg==
   dependencies:
-    "@babel/core" "^7.2.2"
-    "@babel/plugin-syntax-dynamic-import" "7.2.0"
     "@types/jest" "^24.0.1"
     "@vue/test-utils" "1.0.0-beta.29"
     babel-core "7.0.0-bridge.0"
     babel-jest "^24.1.0"
-    babel-plugin-dynamic-import-node "2.2.0"
     babel-plugin-transform-relative-paths "0.1.0"
     chai "4.2.0"
     concurrently "4.1.0"
@@ -846,14 +843,12 @@
     loader-utils "1.2.3"
     promise "8.0.2"
     regenerator-runtime "0.13.1"
-    vue "^2.6.6"
-    vue-jest "^3.0.3"
-    vue-template-compiler "^2.6.6"
+    vue-jest "^3.0.2"
 
-"@quasar/quasar-app-extension-testing@^1.0.0-beta.5":
-  version "1.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@quasar/quasar-app-extension-testing/-/quasar-app-extension-testing-1.0.0-beta.5.tgz#1ef2784e166e0671ca1628c614cdfe49fbf8b7fb"
-  integrity sha512-4X0ktvteS5qXAXwqArDEVih4OIIqM8Qdv5GPZAHgeMdpbOqVQkFLeA0giC/8QjkCf0W3Du0++cI+6zGDuthZaQ==
+"@quasar/quasar-app-extension-testing@^1.0.0-beta.6":
+  version "1.0.0-beta.7"
+  resolved "https://registry.yarnpkg.com/@quasar/quasar-app-extension-testing/-/quasar-app-extension-testing-1.0.0-beta.7.tgz#4f84a7285fab44da2fb71c85bc7715bbc0d7c652"
+  integrity sha512-EMCvKkAiJwypZac3uPhoC1Z0Lr54wtVv6LV2MNhYYU7sRgiJutwCG+hu6z1J98nIpKrSPjB+pfO+7lKB+sQW0w==
   dependencies:
     chalk "^2.4.2"
     execa "^1.0.0"
@@ -8874,7 +8869,7 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.2.tgz#1fcc1495effe08a790909b46bf7b5c4cfeb6f21b"
   integrity sha512-NpznMQoe/DzMG7nJjPkJKT7FdEn9xXfnntG7POfTmqnSaza97ylaBf1luZDh4IgV+vgUoR//id5pf8Ru+Ym+0g==
 
-vue-jest@^3.0.3:
+vue-jest@^3.0.2:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/vue-jest/-/vue-jest-3.0.3.tgz#80f664712f2678b1d8bb3af0f2c0bef5efa8de31"
   integrity sha512-QwFQjkv2vXYPKUkNZkMbV/ZTHyQhRM1JY8nP68dRLQmdvCN+VUEKhlByH/PgPqDr2p/NuhaM3PUjJ9nreR++3w==
@@ -8928,7 +8923,7 @@ vue-style-loader@4.1.2, vue-style-loader@^4.1.0:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-template-compiler@2.6.6, vue-template-compiler@^2.5.16, vue-template-compiler@^2.6.6:
+vue-template-compiler@2.6.6, vue-template-compiler@^2.5.16:
   version "2.6.6"
   resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.6.6.tgz#a807acbf3d51971d3721d75ecb1b927b517c1a02"
   integrity sha512-OakxDGyrmMQViCjkakQFbDZlG0NibiOzpLauOfyCUVRQc9yPmTqpiz9nF0VeA+dFkXegetw0E5x65BFhhLXO0A==
@@ -8941,7 +8936,7 @@ vue-template-es2015-compiler@^1.6.0, vue-template-es2015-compiler@^1.8.2:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.8.2.tgz#dd73e80ba58bb65dd7a8aa2aeef6089cf6116f2a"
   integrity sha512-cliV19VHLJqFUYbz/XeWXe5CO6guzwd0yrrqqp0bmjlMP3ZZULY7fu8RTC4+3lmHwo6ESVDHFDsvjB15hcR5IA==
 
-vue@2.6.6, vue@^2.6.6:
+vue@2.6.6:
   version "2.6.6"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.6.tgz#dde41e483c11c46a7bf523909f4f2f816ab60d25"
   integrity sha512-Y2DdOZD8sxApS+iUlwv1v8U1qN41kq6Kw45lM6nVZKhygeWA49q7VCCXkjXqeDBXgurrKWkYQ9cJeEJwAq0b9Q==

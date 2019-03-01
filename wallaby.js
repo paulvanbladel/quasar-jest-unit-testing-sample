@@ -12,7 +12,7 @@ module.exports = (wallaby) => {
       '!test/**/*.spec.js'
     ],
 
-    tests: ['test/**/*.spec.js'],
+    tests: ['src/**/*.spec.js'],
 
     env: {
       type: 'node',
